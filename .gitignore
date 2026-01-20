@@ -1,0 +1,45 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Virtual Environment (Tuyệt đối không push) ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Environment Variables (QUAN TRỌNG: Chứa mật khẩu DB) ---
+.env
+.env.*
+
+# --- IDE / Editor (Rác của VSCode, PyCharm) ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- OS Generated (Rác của Windows/Mac) ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Testing / Coverage ---
+.coverage
+htmlcov/
+.pytest_cache/
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Database ---
+*.sqlite3
+*.db
+
+# --- Distribution / Packaging ---
+dist/
+build/
+*.egg-info/
